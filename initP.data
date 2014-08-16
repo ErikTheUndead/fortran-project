@@ -1,0 +1,6 @@
+0		! maillage 0 == régulier et 1 == irrégulier
+1.0 1.0  	! Lx et Ly
+240 240		! Nx et Ny
+1		! type CL 0 = dirichlet ou 1 = Neumann pour Poisson ou Helmholtz
+1		! Nombre de points dirichlet pour les CL Neumann : 2 ( 1 pt dirichlet) ou 1 (4 pts Dirichlet)
+

@@ -1,0 +1,11 @@
+1		! maillage 0 == régulier et 1 == irrégulier
+1.0 1.0  	! Lx et Ly
+128 128		! Nx et Ny
+1.		! critère CFL
+500000		! nombre d'iteration max (n)
+1000.		! Reynolds
+500		! Nsave == Intervalle entre chaque sauvegarde des champs pour vtk
+500.0		! temps physique max en s (n*dt)
+10e-7		! convergence sur l'erreur sup de la vitesse
+!!
+!!
